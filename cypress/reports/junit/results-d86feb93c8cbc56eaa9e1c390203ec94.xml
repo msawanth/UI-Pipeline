@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.5890" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-29T00:03:19" tests="0" file="cypress/integration/BNZ-Tests/bnz-client-tests.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="BNZ Client Functional Tests" timestamp="2022-04-29T00:03:19" tests="5" time="46.5640" failures="0">
+    <testcase name="BNZ Client Functional Tests Verify you can navigate to Payees page using the navigation menu" time="7.2040" classname="Verify you can navigate to Payees page using the navigation menu">
+    </testcase>
+    <testcase name="BNZ Client Functional Tests Verify you can add new payee in the Payees page" time="11.2270" classname="Verify you can add new payee in the Payees page">
+    </testcase>
+    <testcase name="BNZ Client Functional Tests Verify payee name is a required field" time="10.3730" classname="Verify payee name is a required field">
+    </testcase>
+    <testcase name="BNZ Client Functional Tests Verify that payees can be sorted by name" time="4.0740" classname="Verify that payees can be sorted by name">
+    </testcase>
+    <testcase name="BNZ Client Functional Tests Navigate to Payments page" time="11.2520" classname="Navigate to Payments page">
+    </testcase>
+  </testsuite>
+</testsuites>

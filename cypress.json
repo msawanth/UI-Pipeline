@@ -1,0 +1,25 @@
+{
+"viewportWidth": 1920,
+"viewportHeight": 1080,
+"defaultCommandTimeout": 90000,
+"pageLoadTimeout": 90000,
+"chromeWebSecurity": false,
+"env": {
+    "baseURL": "https://www.demo.bnz.co.nz/demo"
+},
+"reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+    "cypressMochawesomeReporterReporterOptions": {
+      "reportDir": "cypress/reports",
+      "charts": true,
+      "reportPageTitle": "My Test Suite",
+      "embeddedScreenshots": true,
+      "inlineAssets": true
+    },
+    "mochaJunitReporterReporterOptions": {
+      "mochaFile": "cypress/reports/junit/results-[hash].xml"
+    }
+  },
+  "video": false
+}
